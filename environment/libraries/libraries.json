@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "https://spaam-community.github.io/AncientMetagenomeDir/ancientmetagenome-environmental/ancientmetagenome-environmental_libraries_schema.json",
+  "$id": "https://.json",
   "type": "array",
   "title": "JSON schema for AncientMetagenomeDir ancient environmental metagenome data",
   "description": "The JSON schema for AncientMetagenomeDir ancient environmental metagenome data data",
@@ -27,6 +27,7 @@
       "instrument_model",
       "library_layout",
       "library_strategy",
+      "amplicon_variable_region",
       "read_count",
       "archive_data_accession",
       "download_links",
@@ -165,6 +166,13 @@
         "description": "Type of sequencing library. Whether shotgun sequenced (WGS) or enriched using 'Target-Capture' protocols and similar.",
         "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/library_strategy.json",
         "examples": ["WGS", "Target-Capture", "depletion", "Unknown"]
+      },
+      "amplicon_variable_region": {
+        "$id": "#/items/properties/amplicon_variable_region",
+        "type": ["integer", "null"],
+        "title": "Variable region of the amplicon",
+        "description": "",
+        "examples": ["NA"]
       },
       "read_count": {
         "$id": "#/items/properties/read_count",
