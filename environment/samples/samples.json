@@ -1,5 +1,7 @@
 {
+    //нужна ссылка
     "$schema": "http://json-schema.org/draft-07/schema",
+    //нужна ссылка
     "$id": "https://___.json",
     "type": "array",
     "title": "JSON schema for agni_metagenomes environmental metagenome data",
@@ -42,7 +44,7 @@
             "project_name": {
                 "$id": "#/items/properties/project_name",
                 "type": "string",
-                "title": "AncientMetagenomeDir key of the publication",
+                "title": "agni_metagenomes key of the publication",
                 "description": "Format: surnameYYYY (if duplicate key but different publication, add b,c,d etc. as necessary)",
                 "pattern": "^[a-zA-Z]+\\d{4}[b-z]?$",
                 "examples": [
@@ -114,6 +116,7 @@
                 "type": "string",
                 "title": "Country name",
                 "description": "Based on modern day definitions, based on INDSC Country list",
+                //нужна ссылка
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/geo_loc_name.json",
                 "examples": [
                     "Germany"
@@ -124,6 +127,7 @@
                 "type": "string",
                 "title": "Original study's primary focus",
                 "description": "Main organism target of original eDNA study",
+                //нужна ссылка
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/study_primary_focus.json",
                 "examples": [
                     "floral",
@@ -230,6 +234,7 @@
                 "type": "string",
                 "title": "The component of a given site material metagenome is from",
                 "description": "Description of the object, site, or immediate environment the sample was obtained from following ENVO ontology",
+                //нужна ссылка
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/feature.json",
                 "examples": [
                     "lake",
@@ -243,11 +248,11 @@
                 "type": "string",
                 "title": "Type of material metagenome is from",
                 "description": "Sample type DNA was extracted from, derived from ENVO ontology terms ",
+                //нужна ссылка
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/material.json",
                 "examples": [
                     "lake sediment",
                     "soil",
-                    "bone"
                 ]
             },
             "sampling_date": {
@@ -269,6 +274,7 @@
                 "type": "string",
                 "title": "Archiving platform",
                 "description": "Name of the nucleotide data archiving platform",
+                //нужна ссылка
                 "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/archive.json",
                 "examples": [
                     "ENA"
