@@ -160,7 +160,7 @@
                 "$id": "#/items/properties/sample_name",
                 "type": "string",
                 "title": "Name of the sample",
-                "description": "In most cases this should be the name of the oil sample",
+                "description": "In most cases this should be the name of the host individual",
                 "examples": ["B9 Reservoir"]
             },
             */нужна ли эта информация?
