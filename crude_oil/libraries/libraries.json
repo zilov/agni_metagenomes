@@ -66,7 +66,7 @@
         "$id": "#/items/properties/sample_name",
         "type": "string",
         "title": "Name of the sample",
-        "description": "In most cases this should be the name of the oil sample. Must match a agni_metagenomes samples table entry",
+        "description": "In most cases this should be the name of the host individual. Must match a agni_metagenomes samples table entry",
         "examples": ["B61"]
       },
       "archive": {
