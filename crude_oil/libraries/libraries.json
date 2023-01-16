@@ -4,8 +4,8 @@
   //нужна ссылка
   "$id": "https://.json",
   "type": "array",
-  "title": "JSON schema for agni_metagenomes oilfield environmental metagenome data",
-  "description": "The JSON schema for agni_metagenomes oilfield environmental metagenome data",
+  "title": "JSON schema for agni_metagenomes crude oil metagenome data",
+  "description": "The JSON schema for agni_metagenomes crude oil metagenome data",
   "additionalItems": false,
   "items": {
     "$id": "#/items",
