@@ -1,12 +1,11 @@
-# AncientMetagenomeDir - Libraries Column Specifications
+# agni_metagenomes - Libraries Column Specifications
 
-![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg)
+![check_dataset](https://github.com/spaam-community/AncientMetagenomeDir/workflows/check_dataset/badge.svg) !ЭТУ ССЫЛКУ НУЖНО ПОМЕНЯТЬ!
 
 This page describes columns definitions for all library-level lists. Icons indicate columns that are specific to specific columns.
 
-- 🏞: environmental ancient metagenomes
-- 🧫: host-associated ancient metagenomes
-- 🦠: host-associated ancient single genomes
+- 🏞: oilfielf environmental metagenomes
+- 🦠: crude oil metagenomes
 
 Numeric fields (e.g. `read_count`), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `library_name`) can be indicated with
