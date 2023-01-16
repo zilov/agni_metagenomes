@@ -5,9 +5,8 @@
 This page describes columns definitions for all sample-level lists. Icons indicate columns
 that are specific to specific columns.
 
-- 🏞: environmental ancient metagenomes
-- 🧫: host-associated ancient metagenomes
-- e🦠: host-associated ancient single genomes
+- 🏞: oilfield environmental metagenomes
+- 🦠: crude oil metagenomes
 
 Numeric fields (e.g. latitude), can be filled with `NA` to indicate 'no
 reported value'. Free text fields (e.g. `geo_loc_name`) can be indicated with
