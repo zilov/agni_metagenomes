@@ -181,6 +181,28 @@
                 "examples": ["10.1038/ng.2906"]
             },
             */
+            // можно добавить эти параметры?
+            */
+            "singlegenome_domain": {
+                "$id": "#/items/properties/singlegenome_domain",
+                "type": "string",
+                "title": "Domain of the microbial species",
+                "description": "Taxonomic domain (or equvilient) that the the microbial species is derived from",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_domain.json",
+                "examples": [
+                "bacteria",
+                "virus"
+                ]
+              },
+              "singlegenome_species": {
+                "$id": "#/items/properties/singlegenome_species",
+                "type": "string",
+                "title": "Latin name of the microbiome species",
+                "description": "Linnean latin name, follows NCBI taxonomy where possible",
+                "$ref": "https://spaam-community.github.io/AncientMetagenomeDir/assets/enums/singlegenome_species.json",
+                "examples": ["Yersinia pestis"]
+              },
+            */
             "feature": {
                 "$id": "#/items/properties/feature",
                 "type": "string",
@@ -205,7 +227,6 @@
                 "examples": [
                     "lake sediment",
                     "soil",
-                    "bone"
                 ]
             },
             "sampling_date": {
@@ -214,7 +235,7 @@
                     "integer",
                     "null"
                 ],
-                "minimum": 1700,
+                "minimum": 0,
                 "maximum": 2100,
                 "title": "Year of sampling event for DNA analysis",
                 "description": "Year of sampling event for DNA analysis in YYYY format",
